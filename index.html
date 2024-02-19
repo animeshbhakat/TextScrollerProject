@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Text Scroller</title>
+</head>
+<body>
+
+  <h2>Put Your Content Here!</h2>
+  <textarea id="scrollingTextarea"></textarea><br>
+  <button id="scrollButton" type="button" class="btn btn-primary btn-sm"onclick="toggleScrolling()">Start Scrolling</button>
+  <button type="button" class="btn btn-primary btn-sm" onclick="changeSpeed(100)">Slow</button>
+  <button type="button" class="btn btn-primary btn-sm" onclick="changeSpeed(50)">Medium</button>
+  <button type="button" class="btn btn-primary btn-sm" onclick="changeSpeed(10)">Fast</button>
+
+  <script src="index.js"></script>
+</body>
+</html>
