@@ -15,7 +15,18 @@ body {
   background: linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
   background: -moz-linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
   background: -webkit-linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C5F9D7", endColorstr="#F7D486", GradientType=1 );}
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C5F9D7", endColorstr="#F7D486", GradientType=1 );
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#increaseButton, #decreaseButton{
+  margin: 0 2rem;
+}
+
 
 #scrollingTextarea {
   overflow-y: scroll; 
@@ -27,7 +38,7 @@ body {
 @media screen and (max-width: 768px) {
   #scrollingTextarea {
     overflow-y: scroll; 
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     height: 85%;
     width: 80%;
   }
@@ -44,8 +55,9 @@ body {
     height: 85%;
     width: 90%;
   }
-  button{
-    margin-right: .35rem;
+
+  .button-container {
+    text-align: center;
   }
   
 }
