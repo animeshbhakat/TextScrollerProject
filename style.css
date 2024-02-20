@@ -55,9 +55,8 @@ body {
     height: 85%;
     width: 90%;
   }
-
-  .button-container {
-    text-align: center;
+  button{
+    margin-right: .35rem;
   }
   
 }
